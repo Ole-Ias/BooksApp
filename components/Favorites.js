@@ -36,8 +36,8 @@ export default function Favorites() {
   // Removes one book from database
   const deleteItem = (bookDetails) => {
     Alert.alert(
-      'Remove book from shelf?',
-      'Remove will be permanent',
+      'Deleting book from favorites',
+      'Are you sure?',
       [
         { text: 'NO', onPress: () => console.log("Cancel Pressed"), style: 'cancel' },
         {
